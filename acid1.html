@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Test Acid1 – Version Française</title>
+  <style>
+    html, body {
+      background: #ffffff;
+      color: #000000;
+      font: 16px/1.4 "Georgia", serif;
+      margin: 2em;
+    }
+
+    .cadre-principal {
+      border: 12px solid #bbbbbb;
+      padding: 2em;
+      background-color: #fcfcfc;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      font: bold 2em/1.2 "Times New Roman", Times, serif;
+      color: #001f4d;
+      border-bottom: 2px solid #777777;
+    }
+
+    p {
+      text-align: justify;
+      margin: 1.2em 0;
+    }
+
+    .zone-flottante {
+      float: right;
+      width: 48%;
+      border: 3px solid #228b22;
+      padding: 1em;
+      background: #d8f8d8;
+      font: italic 1em "Palatino Linotype", serif;
+    }
+
+    .en-ligne {
+      display: inline;
+      font-weight: bold;
+      color: #800080;
+    }
+
+    .zone-code {
+      font-family: monospace;
+      font-size: 1em;
+      color: #cc0000;
+      background: #e6ecff;
+      padding: 1em;
+      border: 1px dashed #999;
+    }
+
+    .invisible {
+      visibility: hidden;
+    }
+
+    .absolu {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      color: #ff8800;
+    }
+
+    .vider {
+      clear: both;
+      border-top: 1px dotted #aaaaaa;
+      margin-top: 2em;
+    }
+
+    .emphase span {
+      font-weight: bold;
+      text-decoration: underline;
+      color: #008000;
+    }
+
+    #pied-de-page {
+      margin-top: 3em;
+      text-align: center;
+      font-size: 0.85em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="cadre-principal">
+    <h1>Page de test Acid1 (FR)</h1>
+
+    <div class="zone-flottante">
+      Ce bloc doit apparaître flottant à droite, avec une bordure verte, un fond vert clair, et du texte en italique.
+    </div>
+
+    <p>Ce document sert à évaluer les capacités de rendu CSS de votre navigateur. Il s'agit d'un test basé sur les spécifications CSS1 publiées par le W3C.</p>
+
+    <p class="emphase">Si vous pouvez <span>lire</span> ceci et que <span>tous les éléments</span> sont <span>correctement</span> positionnés et stylisés, le test est réussi.</p>
+
+    <div class="zone-code">
+      Cette section utilise une police monospace, une bordure en pointillé, et un fond bleu pâle. Son affichage valide une partie du test.
+    </div>
+
+    <p class="invisible">Ce paragraphe doit être masqué (visibility: hidden). Si vous le voyez, le test échoue ici.</p>
+
+    <div class="absolu">Élément en position absolue</div>
+
+    <div class="vider"></div>
+
+    <div id="pied-de-page">Réécriture originale inspirée d’Acid1. Ce fichier est placé dans le domaine public.</div>
+  </div>
+</body>
+</html>
